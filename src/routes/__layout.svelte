@@ -6,12 +6,11 @@
     import Footer from '$lib/Footer.svelte'
 </script>
 
-<body class="flex flex-col min-h-screen">
-    <Nav path={$page.path}/>
+<Nav path={$page.path}/>
 
-    <div class="flex-grow">
-        <slot></slot>
-    </div>
+<!-- Whole application inside a flex container, see ../app.postcss -->
+<div class="flex-grow">
+    <slot></slot>
+</div>
 
-    <Footer></Footer>
-</body>
+<Footer></Footer>
