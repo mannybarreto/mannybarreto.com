@@ -10,7 +10,7 @@
     @apply ring text-purple-700 bg-black;
   }
   .nav-active {
-    @apply text-purple-700 border-2 border-purple-700;
+    @apply text-purple-700 font-bold border-2 border-purple-700;
   }
   .nav-active:hover {
     @apply text-black bg-purple-700;
