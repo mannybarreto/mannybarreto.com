@@ -7,19 +7,19 @@
     @apply px-3 py-2 rounded-md text-sm leading-5 font-medium  transition duration-150 ease-in-out;
   }
   .nav-default:focus {
-    @apply ring text-purple-700 bg-black;
+    @apply ring text-purple bg-black;
   }
   .nav-active {
-    @apply text-purple-700 font-bold border-2 border-purple-700;
+    @apply text-purple font-bold border-2 border-purple;
   }
   .nav-active:hover {
-    @apply text-black bg-purple-700;
+    @apply text-black bg-purple;
   }
   .nav-inactive {
       
   }
   .nav-inactive:hover {
-    @apply text-black bg-purple-700;
+    @apply text-black bg-purple;
   }
 </style>
 
