@@ -3,7 +3,15 @@
 
     import { page } from '$app/stores'
     import Nav from '$lib/Nav.svelte'
+    import Footer from '$lib/Footer.svelte'
 </script>
 
-<Nav path={$page.path}/>
-<slot></slot>
+<body class="flex flex-col min-h-screen">
+    <Nav path={$page.path}/>
+
+    <div class="flex-grow">
+        <slot></slot>
+    </div>
+
+    <Footer></Footer>
+</body>
