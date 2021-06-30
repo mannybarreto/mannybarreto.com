@@ -3,13 +3,19 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: theme('colors.background');
-  color: theme('colors.foreground');
-  font-size: 14px;
+@layer base {
+    #svelte {
+        @apply flex flex-col min-h-screen;
+    }    
+
+    body {
+        font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        background-color: theme('colors.background');
+        color: theme('colors.foreground');
+        font-size: 14px;
+    }
+
+    ul { @apply list-disc }
+    ol { @apply list-decimal }
 }
 
-#svelte {
- @apply flex flex-col min-h-screen;
-}
