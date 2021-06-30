@@ -1,2 +1,2 @@
-<h2 class="m-2 self-center"> Protected under the MIT License </h2>
-<h2 class="m-2 self-center"> Handcrafted with ❤️ using <a href={"https://kit.svelte.dev/"}>SvelteKit</a></h2>
+<h2 class="m-1 self-center text-sm"> Protected under the MIT License </h2>
+<h2 class="m-1 self-center text-sm"> Handcrafted with ❤️ using <a href={"https://kit.svelte.dev/"}>SvelteKit</a></h2>

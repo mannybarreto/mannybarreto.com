@@ -9,7 +9,7 @@
 <Nav path={$page.path}/>
 
 <!-- Whole application inside a flex container, see ../app.postcss -->
-<div class="flex-grow">
+<div class="flex flex-grow">
     <slot></slot>
 </div>
 

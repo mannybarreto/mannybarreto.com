@@ -2,5 +2,8 @@
     <title>mannybarreto.com</title>
 </svelte:head>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="text-yellow text-center font-bold self-center m-auto grid grid-cols-4">
+    <div>🚧</div>
+    <div class="col-span-2">Under construction, please come back soon.</div>
+    <div>🚧</div>
+</div>
