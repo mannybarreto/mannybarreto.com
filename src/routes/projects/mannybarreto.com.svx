@@ -1,0 +1,12 @@
+---
+title: mannybarreto.com
+slug: mannybarreto.com
+tldr: Statically generated markdown blog
+stack: [ {name: 'SvelteKit', link: 'https://kit.svelte.dev/'}, { name: 'Typescript', link: 'https://www.typescriptlang.org/'}, {name: 'mdsvex', link: 'https://mdsvex.pngwn.io/'}, {name: 'Tailwind CSS', link: 'https://tailwindcss.com/'}]
+---
+
+<script lang="ts">
+import UnderConstruction from '$lib/components/UnderConstruction.svelte'
+</script>
+
+<UnderConstruction />

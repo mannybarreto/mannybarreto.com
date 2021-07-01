@@ -2,7 +2,7 @@
     <img src={"assets/profile/manny-circle.png"} alt={"Illustrated portrait of Manny"} class="self-center m-auto" />
     <div class="col-span-2 divide-y divide-yellow divide-opacity-60 self-center">
         <div class="text-yellow">
-            <div class="text-xl font-bold">Manny Barreto</div>
+            <div class="text-2xl font-bold">Manny Barreto</div>
             <div class="mb-2">Software Engineer @ <a href={'http://www.google.com'}>Google</a>, working on <a href={"https://apps.apple.com/us/app/google-maps/id585027354#?platform=iphone"}>iOS Maps</a></div>
         </div>
         <ul class="">

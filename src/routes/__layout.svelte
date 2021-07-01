@@ -2,8 +2,8 @@
     import "../app.postcss";
 
     import { page } from '$app/stores'
-    import Nav from '$lib/Nav.svelte'
-    import Footer from '$lib/Footer.svelte'
+    import Nav from '$lib/components/Nav.svelte'
+    import Footer from '$lib/components/Footer.svelte'
 </script>
 
 <Nav path={$page.path}/>

@@ -1,0 +1,12 @@
+---
+title: Briefcase
+slug: briefcase
+tldr: Intelligent trial transcript management
+stack: [ { name: 'Typescript', link: 'https://www.typescriptlang.org/'}, { name: 'Python', link: 'https://www.python.org/'}, { name: 'React', link: 'https://reactjs.org/'}, {name: 'Flask', link: 'https://flask.palletsprojects.com/en/2.0.x/'} ]
+---
+
+<script lang="ts">
+import UnderConstruction from '$lib/components/UnderConstruction.svelte'
+</script>
+
+<UnderConstruction />

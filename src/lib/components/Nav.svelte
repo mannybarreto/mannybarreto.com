@@ -4,7 +4,7 @@
 
 <style lang="postcss">
   .nav-default {
-    @apply px-3 py-2 rounded-md text-sm leading-5 font-medium  transition duration-150 ease-in-out text-base;
+    @apply px-3 py-2 rounded-md text-sm leading-5 font-medium  transition duration-150 ease-in-out text-base text-foreground;
   }
   .nav-default:focus {
     @apply ring text-purple bg-black;
@@ -16,7 +16,7 @@
     @apply text-black bg-purple;
   }
   .nav-inactive {
-      
+         
   }
   .nav-inactive:hover {
     @apply text-black bg-purple;
@@ -24,12 +24,12 @@
 </style>
 
 <nav class="flex grid-cols-4 gap-6 m-6 ml-10">
-    <a href="."
+    <a href="/."
         class="{ path === '/' ? 'nav-active' : 'nav-inactive' } nav-default">Home</a>
-    <a href="blog"
+    <a href="/blog"
        class="{ path === '/blog' ? 'nav-active' : 'nav-inactive'} nav-default">Blog</a>
-    <a href="about"
+    <a href="/about"
        class="{ path === '/about' ? 'nav-active' : 'nav-inactive'} nav-default">About</a>
-    <a href="projects"
+    <a href="/projects"
        class="{ path === '/projects' ? 'nav-active' : 'nav-inactive'} nav-default">Projects</a>
 </nav>

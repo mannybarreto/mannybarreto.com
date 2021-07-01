@@ -1,1 +1,5 @@
-<h1>Blog</h1>
+<script lang="ts">
+    import UnderConstruction from '$lib/components/UnderConstruction.svelte'
+</script>
+
+<UnderConstruction />
