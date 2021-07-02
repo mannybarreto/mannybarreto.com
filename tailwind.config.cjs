@@ -20,6 +20,10 @@ const config = {
 					dark: '#686f9a',
 					darkest: '#30365F'
 				},
+				grey: {
+					DEFAULT: '#818596',
+					transparent: '#c1c3cc'
+				},
 				foreground: '#ecf0c1',
 				background: '#0f111b'
 			}
