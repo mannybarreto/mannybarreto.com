@@ -23,7 +23,7 @@
   }
 </style>
 
-<nav class="flex grid-cols-4 gap-6 m-6 ml-10">
+<nav class="flex grid-cols-4 gap-6 my-6 mx-auto sm:ml-10">
     <a href="/."
         class="{ path === '/' ? 'nav-active' : 'nav-inactive' } nav-default">Home</a>
     <a href="/blog"
