@@ -21,15 +21,17 @@
 </script>
 
 <script lang="ts">
-    import Project from "$lib/components/Project.svelte"
+    import { SITE_POSTFIX } from "$lib/utils/constants"
     import type {ProjectFM} from "$lib/types/markdown"
+
+    import Project from "$lib/components/Project.svelte"
 
     export let projects: ProjectFM[]
 </script>
 
 <svelte:head>
     <!-- TODO: extract postfix to constant -->
-    <title>Projects | mannybarreto.com</title>
+    <title>projects {SITE_POSTFIX}</title>
 </svelte:head>
 
 <!-- TODO: Extract divider to style or component, repeated in `../about.svelte` -->

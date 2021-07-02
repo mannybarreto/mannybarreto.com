@@ -1,9 +1,12 @@
 <script lang="ts">
+    import { SITE_POSTFIX } from "$lib/utils/constants";
+
 	export let title;
 </script>
 
 <svelte:head>
-    <title>{title} | mannybarreto.com</title>
+    <title>{title} {SITE_POSTFIX}</title>
+    <!-- TODO: Investigate where else I should do this -->
     <meta property="og:title" content={title} />
 </svelte:head>
 

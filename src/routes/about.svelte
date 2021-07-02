@@ -1,3 +1,11 @@
+<script lang="ts">
+    import {SITE_POSTFIX} from '$lib/utils/constants'
+</script>
+
+<svelte:head>
+    <title>about {SITE_POSTFIX}</title>
+</svelte:head>
+
 <div class="self-center m-auto w-1/2 xl:w-1/3 grid grid-cols-3 gap-6">
     <img src={"assets/profile/manny-circle.png"} alt={"Illustrated portrait of Manny"} class="self-center m-auto" />
     <div class="col-span-2 divide-y divide-yellow divide-opacity-60 self-center">
