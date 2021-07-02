@@ -5,6 +5,11 @@ const config = {
 	// Spaceduck https://github.com/pineapplegiant/spaceduck
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ['"Open Sans"'],
+				serif: ['"Noto Serif"'],
+				mono: ['"JetBrains Mono"']
+			},
 			colors: {
 				black: '#000000',
 				white: '#ffffff',

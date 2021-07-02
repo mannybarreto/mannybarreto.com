@@ -1,5 +1,6 @@
 <script>
-    import "../app.postcss";
+    import "../styles/app.postcss";
+        import "../styles/fonts.postcss";
 
     import { page } from '$app/stores'
     import Nav from '$lib/components/Nav.svelte'

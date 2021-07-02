@@ -1,0 +1,47 @@
+@tailwind base;
+/* Write your global styles here, in PostCSS syntax */
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    #svelte {
+        @apply flex flex-col min-h-screen;
+    }    
+
+    html {
+        @apply w-full h-full;
+    }
+
+    body {
+        @apply font-sans bg-background text-foreground leading-normal min-h-full mx-3;
+    }
+
+    p {
+        @apply text-base mb-4;
+    }
+
+    h1 {
+        @apply font-serif text-4xl font-medium mb-4;
+    }
+
+    h2 {
+        @apply font-serif text-3xl font-medium mb-4;
+    }
+
+    h3 {
+        @apply font-serif text-2xl font-medium mb-4;
+    }
+
+    a {
+        @apply text-green underline;
+
+        &:hover,
+        &:focus {
+            @apply bg-green text-foreground;
+        }
+    }
+
+    ul { @apply list-disc }
+    ol { @apply list-decimal }
+}
+
