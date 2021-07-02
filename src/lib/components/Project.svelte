@@ -8,7 +8,7 @@
 </script>
 
 <li class={"mt-2"}>
-    <a href="projects/{slug}" rel="prefetch" class="font-bold text-xl text-purple">{title}</a>
+    <a href="projects/{slug}" rel="prefetch" class="font-bold text-xl text-purple hover:bg-purple hover:text-foreground">{title}</a>
     <div>{tldr}</div>
     <div class="text-purple-darkest">Tools: 
         {#each stack as {name, link}, i}
@@ -17,3 +17,14 @@
         {/each}
     </div>
 </li>
+
+<style lang="postcss">
+    .project-link {
+        @apply text-green underline;
+        
+        &:hover,
+        &:focus {
+            @apply bg-green text-foreground;
+        }
+    }
+</style>
