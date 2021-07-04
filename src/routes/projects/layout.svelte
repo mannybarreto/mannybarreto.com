@@ -10,7 +10,7 @@
     <meta property="og:title" content={title} />
 </svelte:head>
 
-<div class="m-auto">
+<div class="m-auto sm:w-1/3">
 	<h1>{title}</h1>
     <slot />
 	<a href="/projects">Back to project index</a>

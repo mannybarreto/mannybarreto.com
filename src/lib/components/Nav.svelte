@@ -4,7 +4,7 @@
 
 <style lang="postcss">
   .nav-default {
-    @apply px-3 py-2 rounded-md text-sm leading-5 font-medium  transition duration-150 ease-in-out text-base text-foreground;
+    @apply px-3 py-2 rounded-md text-sm leading-5 font-medium no-underline transition duration-150 ease-in-out text-base text-foreground;
   }
   .nav-default:focus {
     @apply ring text-purple bg-black;

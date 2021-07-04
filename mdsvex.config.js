@@ -2,7 +2,7 @@ const config = {
 	extensions: ['.svelte.md', '.md', '.svx'],
 
 	layout: {
-		projects: './src/routes/projects/layout.svelte'
+		projects: '/src/routes/projects/layout.svelte'
 	},
 
 	smartypants: {
