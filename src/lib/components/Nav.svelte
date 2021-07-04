@@ -27,9 +27,9 @@
     <a href="/."
         class="{ path === '/' ? 'nav-active' : 'nav-inactive' } nav-default">Home</a>
     <a href="/blog"
-       class="{ path === '/blog' ? 'nav-active' : 'nav-inactive'} nav-default">Blog</a>
+       class="{ path.startsWith('/blog') ? 'nav-active' : 'nav-inactive'} nav-default">Blog</a>
     <a href="/about"
-       class="{ path === '/about' ? 'nav-active' : 'nav-inactive'} nav-default">About</a>
+       class="{ path.startsWith('/about') ? 'nav-active' : 'nav-inactive'} nav-default">About</a>
     <a href="/projects"
-       class="{ path === '/projects' ? 'nav-active' : 'nav-inactive'} nav-default">Projects</a>
+       class="{ path.startsWith('/projects') ? 'nav-active' : 'nav-inactive'} nav-default">Projects</a>
 </nav>
