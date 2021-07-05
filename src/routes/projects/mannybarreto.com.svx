@@ -5,9 +5,6 @@ tldr: Personal website and blog
 stack: [ {name: 'SvelteKit', link: 'https://kit.svelte.dev/'}, { name: 'TypeScript', link: 'https://www.typescriptlang.org/'}, {name: 'MDsveX', link: 'https://mdsvex.pngwn.io/'}, {name: 'Tailwind CSS', link: 'https://tailwindcss.com/'}]
 ---
 
-<script lang="ts">
-</script>
-
 This website was created was created in TypeScript using [SvelteKit](https://kit.svelte.dev/), [MDsveX](https://mdsvex.pngwn.io/), and [Tailwind CSS](https://tailwindcss.com/).
 
 [See the code](https://github.com/mannybarreto/mannybarreto.com)
