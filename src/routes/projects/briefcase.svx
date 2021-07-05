@@ -7,11 +7,10 @@ stack: [ { name: 'Typescript', link: 'https://www.typescriptlang.org/'}, { name:
 
 ![Showcase of the Briefcase web-application showing its workspace page which displays a trial transcript and some comments in a sidebar.](/assets/projects/briefcase/Briefcase_Web_SignUp.png)
 
-Briefcase is an intelligence trial transcript manager in development to support [Loyola Law School's Project for the Innocent](https://www.lls.edu/academics/experientiallearning/clinics/projectfortheinnocent/) efficiency in their noble mission. It combines Natural Language Process with a feature-rich interface to help provide a streamline process.
+**Briefcase** is an intelligent trial transcript manager currently in-development to support [Loyola Law School's Project for the Innocent's](https://www.lls.edu/academics/experientiallearning/clinics/projectfortheinnocent/) efficiency in fighting their noble legal battles. It combines Natural Language Process with a feature-rich interface to help provide meaningful insights along a streamline research process.
 
 ---
-
 ## Learn More
-* [Seaver News Article on Briefcase](https://seavernews.lmu.edu/2021/05/20/computer-science-app-assists-loyola-laws-efforts-to-exonerate-the-wrongly-incarcerated/)
+* [Seaver News' Article on Briefcase](https://seavernews.lmu.edu/2021/05/20/computer-science-app-assists-loyola-laws-efforts-to-exonerate-the-wrongly-incarcerated/)
 
 
