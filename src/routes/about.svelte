@@ -14,7 +14,7 @@
             <div class="mb-2">Software Engineer @ <a href={'http://www.google.com'}>Google</a>, working on <a href={"https://apps.apple.com/us/app/google-maps/id585027354#?platform=iphone"}>iOS Maps</a></div>
         </div>
         <ul class="">
-            <li class="mt-1">Hello! I'm passionate about writing code as a craft, and honing the skills and arsenal involved. I hope to share that journey along with my various other passions on here.</li>
+            <li class="">Hello! I'm passionate about writing code as a craft, and honing the skills and arsenal involved. I hope to share that journey along with my various other passions on here.</li>
             <li>Besides software engineering, some of my hobbies include: cooking, guitar, concert-going, hiking, travelling, and reading.</li>
         </ul>
     </div>
