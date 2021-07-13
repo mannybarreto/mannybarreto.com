@@ -17,14 +17,3 @@
         {/each}
     </div>
 </li>
-
-<style lang="postcss">
-    .project-link {
-        @apply text-green underline;
-        
-        &:hover,
-        &:focus {
-            @apply bg-green text-foreground;
-        }
-    }
-</style>
