@@ -7,3 +7,9 @@ export type ProjectFM = {
 	tldr: string;
 	stack: Framework[];
 };
+
+export type SocialFM = {
+	name: string;
+	icon: string;
+	url: string;
+}

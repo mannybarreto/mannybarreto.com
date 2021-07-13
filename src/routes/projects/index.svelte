@@ -9,7 +9,6 @@
             projects.push(modules[slug]().then(({ metadata }) => metadata))
         }
 
-
         projects = await Promise.all(projects)
 
         return {
@@ -30,7 +29,6 @@
 </script>
 
 <svelte:head>
-    <!-- TODO: extract postfix to constant -->
     <title>projects {SITE_POSTFIX}</title>
 </svelte:head>
 

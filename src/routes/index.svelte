@@ -1,6 +1,5 @@
 <script>
     import {SITE_POSTFIX} from '$lib/utils/constants'
-    import UnderConstruction from '$lib/components/UnderConstruction.svelte'
     import Profile from '$lib/components/Profile.svelte'
 </script>
 
