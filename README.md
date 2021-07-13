@@ -21,4 +21,4 @@ pnpm run build
 
 > You can preview the built app with `pnpm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
 
-## [More about the project](src/routes/projects/mannybarreto.com.svx)
+## [More about the project](https://www.mannybarreto.com/projects/mannybarreto.com)
