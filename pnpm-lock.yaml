@@ -24,7 +24,7 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.26
-  '@sveltejs/kit': 1.0.0-next.132_svelte@3.39.0
+  '@sveltejs/kit': 1.0.0-next.133_svelte@3.39.0
   '@typescript-eslint/eslint-plugin': 4.28.4_b1648df9f9ba40bdeef3710a5a5af353
   '@typescript-eslint/parser': 4.28.4_eslint@7.31.0+typescript@4.3.5
   autoprefixer: 10.3.1_postcss@8.3.6
@@ -140,8 +140,8 @@ packages:
       esbuild: 0.12.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.132_svelte@3.39.0:
-    resolution: {integrity: sha512-mX3ihuyTQr3302ZpihG3gXfTBcDPODlJ6ZoYu6f7TGo8+1OdpuDdozgi1CKLkrUBHYGnPO4E75XOVKlgJLjBQw==}
+  /@sveltejs/kit/1.0.0-next.133_svelte@3.39.0:
+    resolution: {integrity: sha512-MHrFxvjE8fYy1/p1TZkOzJ6XoPQ0vUujRd1AgOX8syO482Fi92NRgrgX3VQKQH0iOuc7KxwnRiBeerNk4pmfVg==}
     engines: {node: ^12.20 || >=14.13}
     hasBin: true
     peerDependencies:
