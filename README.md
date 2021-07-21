@@ -1,4 +1,4 @@
-# [mannybarreto.com](https://www.mannybarreto.com)
+# 📓 [mannybarreto.com](https://www.mannybarreto.com)
 [![Hosted on Vercel](https://img.shields.io/github/deployments/mannybarreto/mannybarreto.com/production?label=vercel&logo=vercel)](https://www.mannybarreto.com/)
 [![Secured with CodeQL](https://img.shields.io/github/workflow/status/mannybarreto/mannybarreto.com/CodeQL?label=CodeQL&logo=GitHub)](https://github.com/mannybarreto/mannybarreto.com/actions/workflows/codeql-analysis.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/mannybarreto/mannybarreto.com/blob/main/LICENSE)
