@@ -33,7 +33,7 @@
 </svelte:head>
 
 <!-- TODO: Extract divider to style or component, repeated in `../about.svelte` -->
-<div class="self-center m-auto divided divide-y divide-yellow divide-opacity-60">
+<div class="divided divide-y divide-yellow divide-opacity-60 m-auto">
     <h1 class="text-2xl font-bold text-yellow"> Projects </h1>
     <ul>
         {#each projects as {title, slug, tldr, stack}}

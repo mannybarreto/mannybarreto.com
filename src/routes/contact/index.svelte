@@ -30,7 +30,7 @@
     <title>contact {SITE_POSTFIX}</title>
 </svelte:head>
 
-<div class="m-auto divided sm:w-1/4 divide-y divide-yellow divide-opacity-60">
+<div class="divided divide-y divide-yellow divide-opacity-60 m-auto">
     <h2 class="text-yellow">Contact Me</h2>
     <div>
         <p class="w-full my-3">

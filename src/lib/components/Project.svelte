@@ -7,7 +7,7 @@
     export let stack: Framework[]
 </script>
 
-<li class={""}>
+<li>
     <a href="projects/{slug}" rel="prefetch" class="font-bold text-xl text-purple hover:bg-purple hover:text-foreground">{title}</a>
     <div>{tldr}</div>
     <div class="text-purple-darkest">Tools: 

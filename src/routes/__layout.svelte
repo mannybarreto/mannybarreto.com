@@ -10,7 +10,7 @@
 <Nav path={$page.path}/>
 
 <!-- Whole application inside a flex container, see ../app.postcss -->
-<div class="flex flex-grow">
+<div class="self-center m-auto flex flex-grow sm:w-1/3 xl:w-1/4">
     <slot></slot>
 </div>
 

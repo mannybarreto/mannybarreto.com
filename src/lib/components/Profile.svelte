@@ -1,6 +1,6 @@
-<div class="self-center mx-3 sm:m-auto sm:w-2/5 grid grid-cols-4 gap-6">
-    <img src={"assets/profile/manny-circle.png"} alt={"Illustrated portrait of Manny"} class="self-center m-auto col-start-2 sm:col-start-1 col-span-2 sm:col-span-1" />
-    <div class="col-span-4 sm:col-span-3 divide-y divide-yellow divide-opacity-60 self-center m-auto">
+<div class="flex flex-col xl:flex-row justify-center">
+    <img src={"assets/profile/manny-circle.png"} alt={"Illustrated portrait of Manny"} class="w-1/2 self-center m-2" />
+    <div class="divide-y divide-yellow divide-opacity-60 self-center">
         <div class="text-yellow">
             <h2>Manny Barreto</h2>
             <p>Software Engineer @ <a href={'http://www.google.com'}>Google</a>, working on <a href={"https://apps.apple.com/us/app/google-maps/id585027354#?platform=iphone"}>iOS Maps</a></p>
