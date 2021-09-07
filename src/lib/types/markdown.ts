@@ -13,3 +13,8 @@ export type SocialFM = {
 	icon: string;
 	url: string;
 }
+
+export type GardenFM = {
+	title: string;
+	plants: string[];
+}
