@@ -1,7 +1,7 @@
 <script context="module" lang="ts">
     // @type {import('@svelte/kit').Load}
     export async function load({page, fetch}) {
-        const modules = import.meta.glob('./**.svx')
+        const modules = import.meta.glob('./**.md')
 
         let socials = []
 
