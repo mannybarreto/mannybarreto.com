@@ -34,7 +34,7 @@
 
 <!-- TODO: Extract divider to style or component, repeated in `../about.svelte` -->
 <div class="divided divide-y divide-yellow divide-opacity-60 m-auto">
-    <h1 class="text-2xl font-bold text-yellow"> Projects </h1>
+    <h2 class="font-bold text-yellow">Projects</h2>
     <ul>
         {#each projects as {title, slug, tldr, stack}}
             <Project {...{title, slug, tldr, stack}} />

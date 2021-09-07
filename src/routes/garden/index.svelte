@@ -34,12 +34,15 @@
 </svelte:head>
 
 <div>
-    <h1>
-        Leaves
-    </h1>
-    <ul>
-        {#each leaves as {title}}
-            <li>{title}</li>
-        {/each}
-    </ul>
+    <h2 class="text-yellow">Welcome to my digital garden</h2>
+    <p>A loosely tended mess of my ideas, writings, and creations -- where I'll often find myself cultivating my passions.</p>
+
+    <hr />
+
+    <h2>
+        All Leaves
+    </h2>
+    {#each leaves as {slug}}
+        <a href="garden/{slug}" class="font-mono">{slug}</a>
+    {/each}
 </div>
